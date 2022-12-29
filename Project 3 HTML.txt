@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(147, 214, 147);
+        }
+
+        .body-container {
+            text-align: center;
+            align-items: center;
+        }
+
+        #vegetableSaladImage {
+            width: 40%;
+            height: 40%;
+        }
+
+        .heading {
+            color: rgb(21, 21, 148);
+            font-size: 24px;
+        }
+
+        h3 {
+            color: rgb(31, 31, 231);
+            font-size: 28px;
+        }
+
+        #benefitsParagraph {
+            color: navy;
+        }
+
+        #stepForVegetableSalad {
+            display: inline-block;
+            text-align: left;
+            color: navy;
+        }
+        #footerText{
+            color: navy;
+            margin-top: 50px;
+            border-top:2px solid  wheat;
+        }
+    </style>
+
+<body>
+    <div class="body-container">
+    <title id="titleName">Vegetable Salad</title>
+        <img id="vegetableSaladImage"
+            src="https://static.onecms.io/wp-content/uploads/sites/19/2011/04/08/chunky-vegetable-salad-ay-2000.jpg"
+            alt="Vegetable Salad">
+        <h3 id="benefits">Benefits of Vegetable Salad</h3>
+        <p id="benefitsParagraph"> Healthy Salads Help You Get Enough Fruits and Vegetables Vegetable and Fruit Salads are Full of Fibre</p>
+        <h3 id="steps">Steps to make Vegetable Salad</h3>
+        <ul id="stepForVegetableSalad">
+            <li>Peel the cucumber and wash in normal water along with the tomato</li>
+            <li>Cut the beet root, tomato and cucumber into rings.</li>
+            <li>Sprinkle some salt and chaat masala.</li>
+            <li>Serve this nutritional salad with any meal.</li>
+            <li>You can add your choice of vegetables such as onion, carrot, radish, etc.</li>
+        </ul>
+        <footer id="footerText">A salad is a dish consisting of mixed, mostly natural ingredients with at least one raw ingredient. They are typically served at room temperature or chilled, though some can be served warm.</footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<title>MY FAVORATE FOODS</title>
+<style>
+
+.first1{position:absolute;text-align:center;left:1000px;top:310px;}
+#titleName{color:black;}
+#titleImage{width:1503px;height:600px;}
+
+.second{background-color:orange;}
+#favFood1{text-align:center;}
+#foodDescription{text-align:center;}
+#favFoodImage1{width:800px;height:600px;display:block;margin-left:auto;margin-right:auto;border:solid;color:white;}
+
+.third{background-color:pink;}
+#favFood2{text-align:center;}
+#foodDescription2{text-align:center;}
+#favFoodImage2{width:800px;height:600px;display:block;margin-left:auto;margin-right:auto;}
+
+.fourth{background-color:powderblue;}
+#favFood3{text-align:center;}
+#foodDescription3{text-align:center;}
+#favFoodImage3{width:800px;height:600px;display:block;margin-left:auto;margin-right:auto;border:solid;}
+</style>
+</head>
+
+<body>
+<div class="first1"><header id="titleName"><font size="+32"><i><h1>SOME OF MY FAV <br> FOODS</font></header></div>
+<img id="titleImage" src="https://images.indianexpress.com/2021/12/food-trends_-1200.jpg"></img>
+
+<div class="second">
+<br><header id="favFood1"><h3>SWEETS</h3></header>
+<p id="foodDescription">Mithai (sweets) are the confectionery and desserts of the Indian subcontinent.[1][2] Thousands of dedicated shops in India, Bangladesh, Nepal, Pakistan and Sri Lanka sell nothing but sweets.</p>
+<img id="favFoodImage1" src="https://1.bp.blogspot.com/-Yn52GtCFZas/X6ft5y-LO3I/AAAAAAAAStI/sq87NFdMRyYH_g_8Vrg2_LZkMa-HPtHTACLcBGAsYHQ/w1200-h630-p-k-no-nu/Diwali%2BSweets.jpg"></img>
+<br></div>
+
+<div class="third">
+<br><header id="favFood2"><i><b><h3>Mudakathan Dosai<h3></header>
+<p id="foodDescription2">Mudakathan keerai is an amazing ingredient to include in our diet as it has amazing nutritional value, medicinal uses and health benefits. It is especially well known for treating joint pain and promoting hair growth.</p>
+<img id="favFoodImage2"src="https://www.kannammacooks.com/wp-content/uploads/mudakathan-keerai-dosai-recipe-15.jpg"></img>
+<br></div>
+
+<div class="fourth">
+<br><header id="favFood3"><i><b><h3>BIRIYANI<h3></header>
+<p id="foodDescription3">Biryani is one of the most popular dishes in South Asia, as well as among the diaspora from the region. Similar dishes are also prepared in other parts of the world such as in Iraq, Thailand, and Malaysia.[2] Biryani is the single most-ordered dish on Indian online food ordering and delivery services</p>
+<img id="favFoodImage3"src="https://i.pinimg.com/originals/24/ac/bb/24acbb7530fb22151d3f3f1581fb947d.png"></img>
+<br></div>
+
+
+
+</body>
+</html>

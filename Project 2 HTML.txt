@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+
+    <div class="container">
+        <h1 id="titleName"> NEO PHOTOGRAPHY</h1>
+        <h2 id="titleDescription">Photography is an Art</h2>
+        <a onclick="myFunction()" id="viewWork">View Work</a>
+    </div>
+    <div id="images">
+    <div class="image">
+        <img src="https://images.news18.com/ibnlive/uploads/2021/08/sun-photo.jpg" alt="pic1" id="backGroundImage" >
+    </div>
+    <div class="image">
+        <h3 id="ourWork"></h3>
+        <img src="https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410__340.jpg" alt="pic2" id="firstImage" >
+    </div>
+    <div class="image">
+        <img src="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVzdCUyMGZyaWVuZHMlMjBmb3JldmVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="pic3" id="secondImage"><p id="firstImageName">Friends forever </p>
+    </div>
+    <div class="image">
+        <img src="http://rmkec.ac.in/g_images/building/Main-Block1.jpg" alt="pic4" id="thirdImage">
+        <p id="secondImageName">RMK = Jail</p>
+    </div>
+    <div class="image">
+        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/07/A-Images-HD-Screen-Download.jpg" alt="pic5" id="fourthImage">
+        <p id="thirdImageName">Ship in a glass</p>
+    </div>
+</div>
+</div>
+
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</html>
